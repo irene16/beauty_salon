@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салон красоты</title>
+    <link rel="stylesheet" type="text/css" href="beauty_style.css">
+    <link rel="stylesheet" type="text/css" href="reg_adapt.css">
+    <script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OdtEjKoIa-02Ccx54tr0NULzfa3seQ8Pg9zHkXAcNnuRtKQT4qpj9KqNXFlfaYmfgdxfY8af2q5DTirVmW_bAleVdG0gl4RDBjnCRbLZZo127DdAOVZZZImnspVzPp7CySruYASa3rTtVyGmczf5Ew" charset="UTF-8"></script></head>
+<body>
+    <header>
+        <div class="block">
+                <ul id="menu">
+                    <a href="address.html"><li>АДРЕС</li></a>
+                    <a href="services.html"><li>УСЛУГИ</li></a>
+                    <a href="prices.html"><li>ПРАЙС-ЛИСТ</li></a>
+                    <a href="tel:+792557063"><li>ПОЗВОНИТЬ В САЛОН</li></a>
+                    <a href="reg.html"><li>ЗАПИСАТЬСЯ В САЛОН</li></a>
+                </ul>
+            <button class="burger" id="burger" onclick="ToggleMenu()">
+               <div class="line"></div>
+            </button>
+        </div>
+    <a href="index.html"><div class="photo"><img src="la_beaute.png" alt="Логотип" class="center-img"/></div></a>    
+
+    <nav>
+        <div class="cont"><a href="https://telegram.me/rtumirea_official"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/2111/2111708.png" alt="Telegram"/></a></div>
+        <div class="cont"><a href="https://www.instagram.com/rtu_university_official/?hl=ru"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/2111/2111491.png" alt="Instagram"/></a></div>
+        <div class="cont"><a href="https://vk.com/mirea_official"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/2111/2111765.png" alt="VK"/></a></div>
+    </nav>
+
+</header>
+
+    <section id="reg">
+        <form name="f1">
+            <fieldset>
+                <legend>ЗАПИСЬ НА ПРИЕМ</legend>
+                <label for="name">Имя<br></label><input type="text" id="name" autocomplete="off"><br>
+                <label for="tel">Телефон<br></label><input type="tel" id="tel" autocomplete="off"><br>
+                <label for="date">Дата посещения<br></label><input type="date" min="2021-01-01" max="2021-12-31"><br>
+                <label for="radio">Выберите мастера</label><br>
+                    <div class="radio"><input type="radio" name="master" class="radiobtn"> мастер маникюра <br></div>
+                    <div class="radio"><input type="radio" name="master" class="radiobtn"> мастер педикюра <br></div>
+                    <div class="radio"><input type="radio" name="master" class="radiobtn"> бровист <br></div>
+                    <div class="radio"><input type="radio" name="master" class="radiobtn"> лешмейкер <br></div>
+                    <div class="radio"><input type="radio" name="master" class="radiobtn"> парикмахер <br></div>
+            </fieldset>
+          <input type="submit" value="ОТПРАВИТЬ" id="submit">
+        </form>
+    </section>
+    <div>
+    </div>
+    
+
+    <footer>
+        2021© Student MIREA. ALL RIGHTS RESERVED
+    </footer>
+
+    <script>
+        function ToggleMenu(){
+            const button = document.getElementById('burger')
+            const menu = document.getElementById('menu')
+
+            button.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

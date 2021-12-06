@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+    nav {
+        width: 40vw;
+        margin: 3vw;
+    }
+
+
+    .burger {
+        width: 9vw;
+        height: 9vw;
+        margin-right: 4vw;
+    }
+    .burger .line,
+    .burger .line::after,
+    .burger .line::before {
+        height: 0.6vw;
+    }
+    .burger .line::before {
+        top: 1.5vw;
+    }
+    .burger .line::after {
+        top: -1.6vw;
+    }
+    #menu {
+        width: 111vw;
+    }
+
+
+    section#address {
+        flex-direction: column;
+    }
+    .words {
+        width: 75vw;
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+    } 
+    .words p {
+        padding-top: 1vh;
+        font-size: 3vw;
+    }
+    iframe {
+        width: 90vw;
+        height: 100vw;
+    }
+
+
+    footer {
+        padding: 1.5em;
+        font-size: 0.6em;
+    }
+}

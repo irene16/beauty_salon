@@ -1,0 +1,59 @@
+@media screen and (max-width:800px) {
+    nav {
+        width: 40vw;
+        margin: 3vw;
+    }
+
+
+    .burger {
+        width: 9vw;
+        height: 9vw;
+        margin-right: 4vw;
+    }
+    .burger .line,
+    .burger .line::after,
+    .burger .line::before {
+        height: 0.6vw;
+    }
+    .burger .line::before {
+        top: 1.5vw;
+    }
+    .burger .line::after {
+        top: -1.6vw;
+    }
+    #menu {
+        width: 111vw;
+    }
+
+
+    .words {
+        width: 60vw;
+        padding-top: 4vh;
+        padding-bottom: 6vh;
+    } 
+    .price h1 {
+        margin-bottom: 7vw;
+        font-size: 5vw;
+    }
+    .product {
+        width: 85%;
+        margin-bottom: 4vw;
+    }
+    .product_inner {
+        border-bottom: px dashed #fdb5eb;
+        margin-bottom: 4vw;
+    }
+    .product .name {
+        font-size: 3vw;
+    }
+    .product .pricee {
+        font-size: 3vw;
+    }
+    
+
+
+    footer {
+        padding: 1.5em;
+        font-size: 0.6em;
+    }
+}
